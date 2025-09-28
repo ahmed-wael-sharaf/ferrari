@@ -3,7 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* الموبايل (شاشات أقل من 768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  header, nav, section, footer {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/* الموبايل الصغير جدًا (شاشات أقل من 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  button {
+    width: 100%;
+  }
+}
 .headr{
 width: 100%;
 background-color: black;
