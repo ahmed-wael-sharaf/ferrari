@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headr{
+width: 100%;
+background-color: black;
+display: flex;
+height: 50px;
+}
+
+.logo{
+width: 20%;
+float: left;
+padding: 6px;
+color: white;
+}
+
+.nav{
+    width: 70%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+.nav li a{
+text-decoration: none;
+color: rgb(240, 238, 238);
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+transition: 0.8s;
+}
+.headr .nav li a:hover{
+    box-shadow: 10px 10px ;
+    color: rgb(255, 179, 0);
+}
+.vid{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+#bg-vid{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
+}
+
+.vid-titel{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.headr-titel{
+    color: brown;
+    font-size: 12px;
+   padding: 0 30px ;
+   font-weight: bold;
+ 
+}
+.sction1{
+width: 100%;
+overflow: hidden;
+}
+.red-car{
+width: 65%;
+float: left;
+transition: 0.8s;
+mix-blend-mode: multiply;
+background-color: white;
+}
+.red-car:hover{
+transform: translate(25px,30px);
+}
+.F80{
+    width: 35%;
+    float: left;
+    transform: translate(0px,110px);
+    margin-bottom: 150px;
+    
+}
+.ff8 .af li{
+padding: 15px;
+list-style: none;
+}
+
+.sction2{
+    background-color: #282829;
+    overflow: hidden;
+    width: 100%;
+}
+
+.testro{
+width: 35%;
+float: left;
+padding: 15px 25px;
+}
+.sction2 .headr-titel{
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.ttts{
+    margin-bottom: 40px;
+    
+}
+.sction2 .testro .test li{
+    color: white;
+    font-size: larger;
+    list-style: circle;
+    padding: 15px;
+}
+.title-stop{
+    background-color: #282829;
+    width: 100%;
+    text-align: center;
+}
+
+.stop{
+    width:80% ;
+    height: 1px;
+    margin: auto;
+   color: whitesmoke;
+    
+}
+.sction3{
+    width: 100%;
+    margin: auto;
+    background-color: #282829;
+    height: 100vh;
+}
+
+.yalow-car{
+    width: 60%;
+    float: left;
+    transition: 0.8s;
+}
+.yalow-car:hover{
+    padding: 90px;
+}
+.yalow-dis{
+  width:40% ;
+    float: left;
+}
+
+.yalow-dis .spedr{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.yalow-dis ul li{
+list-style: circle;
+color: white;
+padding: 20px;
+}
+
+.last{
+    width: 100%;
+    margin: auto;
+    background-color: #282829;
+    height: 100vh;
+}
+
+.last .blu{
+    /* width: 52%; */
+    float: left;
+    transition: 0.8s;
+}
+.last .blu:hover{
+    transform: translateY(30px);
+}
+.last .titel-blu{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+.last .blu-dis{
+    width: 40%;
+    float: left;
+}
+.last .blu-dis ul li{
+    list-style: circle;
+    color: white;
+    padding: 20px;
+    margin-left: 25px;
+}
